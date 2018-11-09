@@ -3,8 +3,10 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'https://conduit.productionready.io/api';
-
+const API_ROOT = 'https://powerful-lake-14918.herokuapp.com/api/';
+//'http://localhost:3000/api/'; //'https://conduit.productionready.io/api';
+//const API_ROOT = 'localhost://3000/api'; //https://powerful-lake-14918.herokuapp.com/api'
+//const API_ROOT = 'https://powerful-lake-14918.herokuapp.com/api'; //localhost//:3000';
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
 
